@@ -1,6 +1,6 @@
-## ! Brick-Cats Setup Guide for ct8.pl ! ##
+## ! Brick-Cats Setup Guide ! ##
       Needs to extract the src first
-              Made by 0lvt
+            Made by lvtkr
 -------------------------------------------
 
 
@@ -8,11 +8,11 @@
 [DB Setup (required)]
 ---------------------
 1. Go to the 'SiT_3' Folder and find the PHP file named 'config.php'.
-2. In https://panel.ct8.pl/, create a new mysql DataBase (name it whatever you want and a secured pass you won't lose
+2. In ur pma, create a new mysql DataBase (name it whatever you want and a secured pass you won't lose
 3. In the file 'config.php', you will find the following line:
 
   -> $conn = mysqli_connect( "mysql.ct8.pl" , "m40457_modbc", "BrickCatsFR1!" , "m40457_brickymod");
-  change "m40457_modbc" to the database username, "BrickCatsFR1!" to the database pass and "m40457_brickymod" to the database name.
+  change "m40457_modbc" to the database username, "BrickCatsFR1!" to the database pass and "m40457_brickymod" to the database name. And of course, your host.
 
 4. Then connect to the db in 'https://pma.ct8.pl/' with your db credidentials
 5. Go to your database and click import then download the file 'database.sql' in the site files.
@@ -33,7 +33,7 @@
 
   to 
 
-  '/usr/home/{Your CT8.pl Username}/domains/{your domain}/'.
+  '/usr/home/{YourUsername}/domains/{your domain}/'.
 
 3. You are all done with this step !
 
